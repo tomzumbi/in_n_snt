@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = +prompt("nhap")
+    let t = 2
+    let c = 0
+    let b=0
+    do {
+        for (let i = 1; i <= t; i++) {
+            if ( t % i == 0) {
+                b++
+            }
+        }
+        if(b==2){
+            c++;
+            document.writeln(t)
+        }
+        b=0
+        t++
+    } while (c < a)
+
+     // let i = 0
+    // do {
+    //     if (i % 2 == 0) {
+    //         c++
+    //         document.writeln(i)
+    //     }
+    //     i++
+    //
+    //
+    // }while (c<a)
+
+
+
+</script>
+
+</body>
+</html>
